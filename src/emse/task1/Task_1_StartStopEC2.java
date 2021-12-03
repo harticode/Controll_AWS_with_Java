@@ -23,7 +23,7 @@ public class Task_1_StartStopEC2 {
                 "Usage:\n" +
                 "   Set in the Code  <instanceId>\n" +
                 "Where:\n" +
-                "   instanceId - an instance id value that you can obtain from the AWS Console. \n" ;
+                "   instanceId - an instance id value that you can obtain from the AWS Console or simply copy it from the console of the CreateInstanceEC2 part. \n" ;
 		
 		String instanceId = "";//"i-0aa82c781a3e8692b";
         

@@ -36,6 +36,7 @@ public class CreateInstanceEC2 {
                 .build();
 
         String instanceId = createEC2Instance(ec2,tagName, amiId) ;
+        // VERY IMPORTANT for the Start and Stop Part
         System.out.println("The Amazon EC2 Instance ID is "+instanceId);
         ec2.close();
     }
